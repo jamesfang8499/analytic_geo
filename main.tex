@@ -28,7 +28,7 @@
 \usepackage{bm}
 \usepackage[colorlinks=true, linkcolor=black]{hyperref}
 
-
+\usepackage{array}
 
 \theoremstyle{plain}
 \theoremheaderfont{\normalfont\bfseries} 
@@ -87,11 +87,6 @@
     attach boxed title to top left={xshift=5mm, yshift=-2mm},breakable, 
     title=#2, #1}
 
-% \newtcolorbox{note}[1][]
-%   {colback = white, colframe = blue!75!black, fonttitle = \bfseries,
-%     colbacktitle = blue!85!black, enhanced,
-%     attach boxed title to top left={xshift=5mm, yshift=-2mm},breakable, 
-%     title=说明, #1}
 
 
 
@@ -101,19 +96,6 @@
 
 
 
-% \ctexset {
-% section = {
-% 	name = {第,节},
-%  	number = \chinese{section}},
-% subsection = {
-% 	name = {,、\hspace{-1em}},
-% 	number = \chinese{subsection}
-% },
-% subsubsection = {
-% 	name = {（,）\hspace{-1em}},
-% 	number = \chinese{subsubsection},
-% }
-% }
 
 
 
@@ -160,11 +142,11 @@
 \renewcommand{\geq}{\geqslant}
 \renewcommand{\le}{\leqslant}
 \renewcommand{\leq}{\leqslant}
+\setCJKmainfont{PingFang SC}
+\tkzSetUpLine[line width = 1pt]
 
 
 \begin{document}
-
-
 
 \title{\Huge\bfseries 北京四中高中教学讲义\\解析几何（全一册）}
 
